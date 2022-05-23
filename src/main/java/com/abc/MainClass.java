@@ -14,7 +14,8 @@ class MainClass
   private void callOtherClassMethod()
   {
     int caller = 1;
-    otherClass.callingMethod(caller);
+    int callee = 2;
+    otherClass.callingMethod(caller,callee);
   }
   
 }
