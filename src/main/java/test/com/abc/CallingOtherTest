@@ -1,0 +1,7 @@
+public class CallingOtherTest
+{
+     public void test()
+     {
+       System.out.println("calling test. ");
+     }
+}
