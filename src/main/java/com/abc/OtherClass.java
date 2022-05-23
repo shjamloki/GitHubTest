@@ -1,7 +1,7 @@
 public class OtherClass implements Injectable
 {
- public void callingMathod()
+ public void callingMathod(int caller)
  {
-  System.out.println("calling other class method");
+  System.out.println("calling other class method - "+caller);
  }
 }
